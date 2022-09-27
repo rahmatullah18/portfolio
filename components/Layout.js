@@ -9,9 +9,9 @@ export default function Layout({ children }) {
                 <Navbar />
                 {children}
             </div>
-            <div className=''>
+            {/* <div className=''>
                 <Footer />
-            </div>
+            </div> */}
         </div>
     )
 }
