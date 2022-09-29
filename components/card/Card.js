@@ -9,7 +9,7 @@ export default function Card({ project1 }) {
       <Link href={`${project1.url}`}>
         <a target={'_blank'}>
           <div className="relative w-full h-40 overflow-hidden shadow-xl rounded-xl md:h-40">
-            <Image src={`${project1.imgUrl}`} alt="Rent Savings" className="object-cover" layout='fill' />
+            <Image src={`${project1.imgUrl}`} alt="project" className="object-cover" layout='fill' />
           </div>
           <div>
             <div className='p-2 space-y-2'>

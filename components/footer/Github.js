@@ -7,7 +7,7 @@ export default function Github() {
   return (
     <div className='flex items-center'>
       <div className='relative w-10 h-10'>
-        <Image layout='fill' src={GithubLogo} />
+        <Image layout='fill' src={GithubLogo} alt="github" />
       </div>
       <Link href={"https://github.com/rahmatullah18"} >
         <a className='underline' target={'_blank'}>

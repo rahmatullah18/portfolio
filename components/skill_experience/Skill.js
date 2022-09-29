@@ -15,7 +15,7 @@ export default function Skill({ skills }) {
             return (
               <div onClick={(e) => redirect(skill?.url)} key={idx} className="flex flex-col items-center py-1 border rounded-lg cursor-pointer hover:bg-purple-figma hover:text-white">
                 <div className='relative object-center w-16 h-16 rounded-full'>
-                  <Image layout='fill' src={`${skill.urlLogo}`} />
+                  <Image layout='fill' src={`${skill.urlLogo}`} alt={"skill"} />
                 </div>
                 <div className=''>{skill.title}</div>
               </div>
