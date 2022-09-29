@@ -1,10 +1,9 @@
 const title = "Rahmatullah Ashar"
 
 const listNavbar = [
-    { name: "Home", address: "/home" },
-    { name: "About", address: "/about" },
+    { name: "Home", address: "/" },
     { name: "Project", address: "/projects" },
-    { name: "Services", address: "/services" },
+    { name: "Skills & Experience", address: "/skills&experience" },
 ]
 
 export default { title, listNavbar }

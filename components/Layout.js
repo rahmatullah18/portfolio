@@ -4,14 +4,9 @@ import Navbar from './navbar/Navbar'
 
 export default function Layout({ children }) {
     return (
-        <div className='flex flex-col justify-between h-screen bg-white font-roboto'>
-            <div className='h-full'>
-                <Navbar />
-                {children}
-            </div>
-            {/* <div className=''>
-                <Footer />
-            </div> */}
+        <div className='flex flex-col h-screen bg-white font-roboto'>
+            <Navbar />
+            {children}
         </div>
     )
 }

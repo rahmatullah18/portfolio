@@ -6,11 +6,11 @@ import cssLogo from '../../public/img/CSS3.svg'
 import htmlLogo from '../../public/img/html.svg'
 import tailwindLogo from '../../public/img/tailwind.svg'
 
-export default function PictureHeader({ children }) {
+export default function PictureHeader() {
   return (
-    <div className='h-5/6'>
-      <div className='relative w-full h-full bg-fixed bg-center bg-no-repeat bg-cover bg-picture-header'>
-        <div className='absolute p-1 bg-white rounded-full top-1/4 left-1/4'>
+    <div className='h-full'>
+      <div className='relative w-full h-full bg-fixed bg-center bg-no-repeat bg-cover md:bg-local bg-picture-header'>
+        <div className='absolute p-1 bg-white rounded-full top-40 md:top-1/4 md:left-1/4 left-20'>
           <div className='relative w-10 h-10'>
             <Image layout='fill' src={ReactLogo} />
           </div>
@@ -20,7 +20,7 @@ export default function PictureHeader({ children }) {
             <Image layout='fill' src={NextLogo} />
           </div>
         </div>
-        <div className='absolute p-1 bg-white rounded-full top-2/3 left-20'>
+        <div className='absolute p-1 bg-white rounded-full top-1/3 md:top-2/3 left-10'>
           <div className='relative w-10 h-10'>
             <Image layout='fill' src={htmlLogo} />
           </div>

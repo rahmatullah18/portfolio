@@ -3,7 +3,7 @@ import { Fragment, useEffect, useRef, useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
-export default function MyDropdown({ listNavbar }) {
+export default function MyDropdown({ listNavbar, path }) {
 	return (
 		<div className="">
 			<Menu as="div" className="relative inline-block text-left">
@@ -33,7 +33,7 @@ export default function MyDropdown({ listNavbar }) {
 										<Menu.Item key={idx}>
 											{
 												<Link href={`/${list.address}`}>
-													<a className='inline-block w-full px-2 py-2 font-normal capitalize rounded-sm text-md hover:bg-red hover:bg-red-figma hover:font-semibold hover:text-white'>
+													<a className={`inline-block w-full px-2 py-2 font-normal capitalize rounded-sm text-md hover:bg-red hover:bg-purple-figma hover:font-semibold hover:text-white ${list.address === path ? 'bg-purple-figma text-white' : ''}`}>
 														{list.name}
 													</a></Link>
 											}
