@@ -5,10 +5,14 @@ import Layout from '../components/Layout'
 import content from '../components/card/content'
 import Title from '../components/content/Title'
 import Footer from '../components/footer/Footer'
+import Head from 'next/head'
 
 export default function projects() {
   return (
     <Layout>
+      <Head>
+        <title>Project</title>
+      </Head>
       <Container>
         <div className='my-10 space-y-10 md:md:my-20'>
           <h1 className='text-3xl font-bold text-center'>My  Project 👨‍💻</h1>

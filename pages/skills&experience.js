@@ -6,10 +6,14 @@ import Experience from '../components/skill_experience/Experience'
 import Skill from '../components/skill_experience/Skill'
 import SkillsContent from '../components/skill_experience/SkillsContent'
 import ExperienceContent from '../components/skill_experience/ExperienceContent'
+import Head from 'next/head'
 
 export default function Skills_Experience() {
   return (
     <Layout>
+      <Head>
+        <title>Skill & Experience</title>
+      </Head>
       <Container>
         <div className='my-10 space-y-10 md:my-20'>
           <h1 className='text-3xl font-bold text-center'><span className='text-purple-figma'>Skills</span> & <span className='text-red-figma'>Experience</span> 👨‍🎓</h1>
