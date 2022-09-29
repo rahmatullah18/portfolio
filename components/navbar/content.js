@@ -6,4 +6,9 @@ const listNavbar = [
     { name: "Skills & Experience", address: "/skills&experience" },
 ]
 
-export default { title, listNavbar }
+const contentNavbar = {
+    title,
+    listNavbar
+}
+
+export default contentNavbar

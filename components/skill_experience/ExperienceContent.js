@@ -21,4 +21,8 @@ const experiences = [
   },
 ]
 
-export default { experiences }
+const experienceContent = {
+  experiences
+}
+
+export default experienceContent

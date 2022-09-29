@@ -41,6 +41,8 @@ const skills = [
   },
 ]
 
+const skillContent = {
+  skills
+}
 
-
-export default { skills } 
+export default skillContent

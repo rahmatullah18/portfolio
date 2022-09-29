@@ -76,5 +76,7 @@ const projects1 = [
     ]
   }
 ]
-
-export default { projects1 }
+const projects = {
+  projects1
+}
+export default projects
