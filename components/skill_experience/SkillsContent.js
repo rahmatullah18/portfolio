@@ -39,6 +39,11 @@ const skills = [
     url: 'https://id.wikipedia.org/wiki/REST',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664375095/portfolio/API_ejfdyo.svg`,
   },
+  {
+    title: 'Figma',
+    url: 'https://www.figma.com/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664703931/portfolio/figma_d1lciq.svg`,
+  },
 ]
 
 const skillContent = {

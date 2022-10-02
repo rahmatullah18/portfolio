@@ -10,7 +10,12 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Home</title>
+        <meta charSet='UTF-8' />
+        <meta name='description' content='Selamat datang di website portfolio saya, Perkenalkan nama saya Rahmatullah Ashar - Front-End Developer' />
+        <meta name='keywords' content='Rahmatullah Ashar, Mamat, website pribadi, website portfolio, contoh web portfolio, mamat' />
+        <meta name='author' content='Rahmatullah Ashar' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>Rahmatullah Ashar | Front-End Developer</title>
       </Head>
       <div className='md:grid md:grid-cols-2'>
         <PictureHeader />

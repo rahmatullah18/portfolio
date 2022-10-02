@@ -8,7 +8,7 @@ export default function Navbar() {
     const router = useRouter()
     const path = router.pathname
     return (
-        <div className='flex items-center justify-between py-2 mx-2 mt-2 border-b '>
+        <div className='z-20 flex items-center justify-between py-2 mx-2 mt-2 bg-white border-b '>
             <h1 className='text-2xl font-extrabold'>{content?.title}<span className='text-2xl text-red-500 '>.</span></h1>
             <div className='block md:hidden'>
                 <MyDropdown path={path} listNavbar={content?.listNavbar} />

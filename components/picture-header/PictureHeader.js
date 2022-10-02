@@ -4,7 +4,7 @@ import React from 'react'
 export default function PictureHeader() {
   return (
     <div className='h-full'>
-      <div className='relative w-full h-full bg-fixed bg-center bg-no-repeat bg-cover md:bg-local bg-picture-header'>
+      <div className='relative w-full h-full bg-center bg-no-repeat bg-cover md:bg-local bg-picture-header'>
         <div className='absolute p-1 bg-white rounded-full top-40 md:top-1/4 md:left-1/4 left-20'>
           <div className='relative w-10 h-10'>
             <Image layout='fill' src={`https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/react_n8946a.svg`} alt="React" />
