@@ -25,6 +25,11 @@ const skills = [
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373527/portfolio/CSS3_zfzxrp.svg`,
   },
   {
+    title: 'Javascript',
+    url: 'https://id.wikipedia.org/wiki/Cascading_Style_Sheets',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381184/portfolio/JavaScript_kjzbjf.svg`,
+  },
+  {
     title: 'Laravel',
     url: 'https://laravel.com/',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374684/portfolio/laravel_yfo8il.svg`,
@@ -38,6 +43,21 @@ const skills = [
     title: 'Rest API',
     url: 'https://id.wikipedia.org/wiki/REST',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664375095/portfolio/API_ejfdyo.svg`,
+  },
+  {
+    title: 'MySQL',
+    url: 'https://id.wikipedia.org/wiki/MySQL',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/MySQL_Logo_qy25oh.svg`,
+  },
+  {
+    title: 'Node.js',
+    url: 'https://nodejs.org/en/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/Nodejs_kgnww4.svg`,
+  },
+  {
+    title: 'Strapi',
+    url: 'https://strapi.io/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381511/portfolio/strapi_hcbkjh.svg`,
   },
   {
     title: 'Figma',

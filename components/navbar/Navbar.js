@@ -1,3 +1,4 @@
+import { ChevronDoubleDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
@@ -17,9 +18,14 @@ export default function Navbar() {
                 {
                     content?.listNavbar.map((list, idx) => {
                         return (
-                            <Link key={idx} href={`${list.address}`}>
-                                <a className={` text-lg hover:border-b-2 hover:border-purple-figma font-normal capitalize ${list.address === path ? 'border-b-2 border-purple-figma' : ''}`}>{list.name}</a>
-                            </Link>
+                            <div key={idx} className='relative flex flex-col items-center justify-center '>
+                                <Link href={`${list.address}`}>
+                                    <a className={` text-lg  ${list.address === path ? 'text-indigo-600' : ''}  font-semibold capitalize `}>{list.name}</a>
+                                </Link>
+                                <div className={`absolute  flex flex-col items-center w-full -top-1 ${list.address === path ? '' : 'hidden'}`}>
+                                    <ChevronDoubleDownIcon className='absolute w-5 h-5 text-indigo-600 animate-bounce -top-2' />
+                                </div>
+                            </div>
                         )
                     })
                 }

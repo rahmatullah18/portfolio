@@ -3,9 +3,12 @@ import React from 'react'
 export default function About() {
   return (
     <div className='text-justify'>
-      <p>
-        Saya <span className='font-bold'>Freshgraduate</span> dari Univ Dipa Makassar jurusan Teknik Informatika. Saya tertarik pada bagian front-end terutama bagian web. Saya menguasai HTML, CSS, Javascript, React, Next js, Tailwind CSS, Laravel, Bootstrap, RESTAPI.
-        Saya sangat senang belajar hal-hal yang berhubungan dengan teknologi terutama software maupun hadware.
+      <p className='font-light'>
+        Saya mempunyai bakat dan minat besar dalam dunia website khususnya pada
+        bagian frontend. Hal ini terus saya asah dengan mengambil jurusan teknik
+        informatika dan lulus dengan predikat sangat memuaskan. Walaupun masih
+        fresh graduate, namun saya sudah mengerjakan beberapa projek besar yang
+        menunjang minat dan bakat yang saya miliki.
       </p>
     </div>
   )

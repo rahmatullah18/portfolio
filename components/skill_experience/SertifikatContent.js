@@ -8,7 +8,7 @@ const sertifikat = [
   {
     title: "Praktek Kerja Lapangan",
     tanggal: "13 Sebtember - 12 November 2021",
-    url: "https://drive.google.com/file/d/1rN0mg_V6aqpQLHUf4Mu9MLRMFwQ_3Mr2/view?usp=sharing",
+    url: "https://drive.google.com/file/d/181-Lesu2j5_XwrslOoCV2Qz-nNHChkX0/view?usp=sharing",
     tempat: "Kantor Bupati Jeneponto"
   }
 ]

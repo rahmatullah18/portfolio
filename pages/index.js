@@ -1,3 +1,4 @@
+import { useSpring, animated } from '@react-spring/web'
 import Head from 'next/head'
 import Container from '../components/Container'
 import Content from '../components/content/Content'
@@ -7,6 +8,10 @@ import PictureHeader from '../components/picture-header/PictureHeader'
 
 
 export default function Home() {
+  const fade = useSpring({
+    from: { opacity: 0, x: -600 },
+    to: { opacity: 1, x: 0 },
+  })
   return (
     <Layout>
       <Head>
@@ -18,7 +23,9 @@ export default function Home() {
         <title>Rahmatullah Ashar | Front-End Developer</title>
       </Head>
       <div className='md:grid md:grid-cols-2'>
-        <PictureHeader />
+        <animated.div style={fade} className='h-full'>
+          <PictureHeader />
+        </animated.div>
         <div className=''>
           <Container>
             <Content />
