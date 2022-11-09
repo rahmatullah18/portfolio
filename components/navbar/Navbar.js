@@ -20,10 +20,10 @@ export default function Navbar() {
                         return (
                             <div key={idx} className='relative flex flex-col items-center justify-center '>
                                 <Link href={`${list.address}`}>
-                                    <a className={` text-lg  ${list.address === path ? 'text-indigo-600' : ''}  font-semibold capitalize `}>{list.name}</a>
+                                    <a className={` text-lg  ${list.address === path ? 'text-indigo-600 animate-pulse' : ''}  font-semibold capitalize `}>{list.name}</a>
                                 </Link>
                                 <div className={`absolute  flex flex-col items-center w-full -top-1 ${list.address === path ? '' : 'hidden'}`}>
-                                    <ChevronDoubleDownIcon className='absolute w-5 h-5 text-indigo-600 animate-bounce -top-2' />
+                                    <ChevronDoubleDownIcon className='absolute w-5 h-5 text-indigo-600 -top-2 animate-pulse' />
                                 </div>
                             </div>
                         )

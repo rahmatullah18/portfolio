@@ -1,20 +1,5 @@
 const skills = [
   {
-    title: 'Next.Js',
-    url: 'https://nextjs.org/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/nextJs_iwqjhn.svg`,
-  },
-  {
-    title: 'ReactJs',
-    url: 'https://reactjs.org/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/react_n8946a.svg`,
-  },
-  {
-    title: 'TailwindCSS',
-    url: 'https://tailwindcss.com/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/tailwind_zznkhf.svg`,
-  },
-  {
     title: 'HTML',
     url: 'https://id.wikipedia.org/wiki/HTML',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373527/portfolio/html_dz6l73.svg`,
@@ -30,14 +15,14 @@ const skills = [
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381184/portfolio/JavaScript_kjzbjf.svg`,
   },
   {
-    title: 'Laravel',
-    url: 'https://laravel.com/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374684/portfolio/laravel_yfo8il.svg`,
+    title: 'Next.Js',
+    url: 'https://nextjs.org/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/nextJs_iwqjhn.svg`,
   },
   {
-    title: 'Bootstrap',
-    url: 'https://getbootstrap.com/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374875/portfolio/Bootstrap_v2l3zf.svg`,
+    title: 'ReactJs',
+    url: 'https://reactjs.org/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/react_n8946a.svg`,
   },
   {
     title: 'Rest API',
@@ -45,14 +30,34 @@ const skills = [
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664375095/portfolio/API_ejfdyo.svg`,
   },
   {
+    title: 'Node.js',
+    url: 'https://nodejs.org/en/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/Nodejs_kgnww4.svg`,
+  },
+  {
+    title: 'Laravel',
+    url: 'https://laravel.com/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374684/portfolio/laravel_yfo8il.svg`,
+  },
+  {
+    title: 'TailwindCSS',
+    url: 'https://tailwindcss.com/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664373539/portfolio/tailwind_zznkhf.svg`,
+  },
+  {
+    title: 'Bootstrap',
+    url: 'https://getbootstrap.com/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374875/portfolio/Bootstrap_v2l3zf.svg`,
+  },
+  {
     title: 'MySQL',
     url: 'https://id.wikipedia.org/wiki/MySQL',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/MySQL_Logo_qy25oh.svg`,
   },
   {
-    title: 'Node.js',
-    url: 'https://nodejs.org/en/',
-    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/Nodejs_kgnww4.svg`,
+    title: 'MongoDB',
+    url: 'https://www.mongodb.com/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1668010562/portfolio/MongoDB_hmleq2.svg`,
   },
   {
     title: 'Strapi',

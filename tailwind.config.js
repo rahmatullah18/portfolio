@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
+        'nunito': ['Nunito', 'sans-serif'],
+        'pt-sans': ['PT Sans', 'sans-serif'],
       },
       colors: {
         'purple-figma': '#5562FF',
@@ -17,7 +18,10 @@ module.exports = {
         'orange-figma': '#DED1C1',
       },
       backgroundImage: {
-        'picture-header': "url('/img/mamat.svg')",
+        'picture-header': "url('/img/mamat2.svg')",
+      },
+      boxShadow: {
+        'custom': '27px 12px 62px -16px rgba(121,86,230,0.59)',
       }
     },
   },

@@ -23,7 +23,7 @@ export default function Home() {
         <title>Rahmatullah Ashar | Front-End Developer</title>
       </Head>
       <div className='md:grid md:grid-cols-2'>
-        <animated.div style={fade} className='h-full'>
+        <animated.div style={fade} className='h-5/6 md:h-full'>
           <PictureHeader />
         </animated.div>
         <div className=''>

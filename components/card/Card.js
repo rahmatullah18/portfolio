@@ -5,7 +5,7 @@ import { MapPinIcon } from '@heroicons/react/20/solid';
 
 export default function Card({ project1 }) {
   return (
-    <div className="p-1 overflow-hidden bg-white border shadow-2xl rounded-xl">
+    <div className="p-1 overflow-hidden bg-white border shadow-custom rounded-xl">
       <Link href={`${project1.url}`}>
         <a target={'_blank'}>
           <div className="relative w-full h-40 overflow-hidden shadow-xl rounded-xl md:h-40">

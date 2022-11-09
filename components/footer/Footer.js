@@ -10,7 +10,7 @@ export default function Footer() {
 			<Container>
 				<div className='grid items-center grid-cols-2 gap-2 py-5 mx-5'>
 					<div>
-						<span className='text-white'> Website ini dibuat dengan <a href="https://nextjs.org/" className='underline'>NextJs</a> & <a href='https://tailwindcss.com/' className='underline'>Tailwind CSS</a> </span>
+						<span className='text-white'> Built with Tech <a href="https://nextjs.org/" className='underline'>NextJs</a> & <a href='https://tailwindcss.com/' className='underline'>Tailwind CSS</a> </span>
 					</div>
 					<div className='flex flex-col space-y-2 text-white'>
 						<Instagram />

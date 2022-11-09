@@ -20,7 +20,7 @@ export default function Skill({ skills }) {
             return (
               <animated.div style={{
                 ...springs,
-              }} onClick={(e) => redirect(skill?.url)} key={idx} className="flex flex-col items-center py-1 border rounded-lg cursor-pointer hover:bg-purple-figma hover:text-white">
+              }} onClick={(e) => redirect(skill?.url)} key={idx} className="flex flex-col items-center py-1 transition ease-in-out delay-75 border rounded-lg cursor-pointer hover:bg-purple-figma hover:text-white shadow-custom">
                 <div className='relative object-center w-16 h-16 rounded-full'>
                   <Image layout='fill' src={`${skill.urlLogo}`} alt={"skill"} />
                 </div>

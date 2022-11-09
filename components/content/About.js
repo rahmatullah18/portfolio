@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div className='text-justify'>
       <p className='font-light'>
-        Saya mempunyai bakat dan minat besar dalam dunia website khususnya pada
+        Saya mempunyai minat besar dalam dunia website khususnya pada
         bagian frontend. Hal ini terus saya asah dengan mengambil jurusan teknik
         informatika dan lulus dengan predikat sangat memuaskan. Walaupun masih
-        fresh graduate, namun saya sudah mengerjakan beberapa projek besar yang
+        fresh graduate, namun saya sudah mengerjakan beberapa projek  yang
         menunjang minat dan bakat yang saya miliki.
       </p>
     </div>
