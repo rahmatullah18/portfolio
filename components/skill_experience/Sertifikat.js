@@ -8,7 +8,7 @@ export default function Sertifikat() {
       {SertifikatContent?.sertifikat.map((sertif, idx) => {
         return (
           <div className='relative mt-4' key={idx}>
-            <div className='flex flex-col justify-between w-full h-20 px-2 py-2 border shadow-2xl rounded-xl '>
+            <div className='flex flex-col justify-between w-full h-20 px-2 py-2 shadow-2xl rounded-xl '>
               <h3 className='font-semibold text-black-figma'>{sertif?.title}</h3>
               <p className='text-sm text-gray-500'>{sertif?.tanggal}</p>
             </div>

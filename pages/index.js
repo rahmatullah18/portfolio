@@ -26,10 +26,10 @@ export default function Home() {
         <animated.div style={fade} className='h-5/6 md:h-full'>
           <PictureHeader />
         </animated.div>
-        <div className=''>
-          <Container>
-            <Content />
-          </Container>
+        <div className='bg-picture-content '>
+          {/* <Container> */}
+          <Content />
+          {/* </Container> */}
           <Footer />
         </div>
       </div>

@@ -9,10 +9,10 @@ export default function Footer() {
 		<div className='bg-gray-800 h-52'>
 			<Container>
 				<div className='grid items-center grid-cols-2 gap-2 py-5 mx-5'>
-					<div>
-						<span className='text-white'> Built with Tech <a href="https://nextjs.org/" className='underline'>NextJs</a> & <a href='https://tailwindcss.com/' className='underline'>Tailwind CSS</a> </span>
+					<div className='flex justify-center'>
+						<span className='text-white'> Built with <a href="https://nextjs.org/" className='underline'>NextJs</a> & <a href='https://tailwindcss.com/' className='underline'>Tailwind CSS</a> </span>
 					</div>
-					<div className='flex flex-col space-y-2 text-white'>
+					<div className='flex flex-col space-y-2 text-white md:items-center md:justify-center'>
 						<Instagram />
 						<Github />
 						<Linkedin />

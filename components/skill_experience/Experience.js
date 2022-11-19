@@ -24,7 +24,7 @@ export default function Experience({ experiences }) {
                       </div>
                         : <div>{experience?.bulan_mulai}</div>}</div>
                   </div>
-                  <div className='flex flex-col items-end justify-between'>
+                  <div className='flex flex-col items-end justify-between '>
                     <h3 className='text-lg font-semibold text-black-figma'>{experience.posisi}</h3>
                     <p className='text-sm text-red-figma'>{experience.perusahaan}</p>
                   </div>
