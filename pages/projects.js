@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import content from '../components/card/content'
 import Footer from '../components/footer/Footer'
 import Head from 'next/head'
+import Pagination from '../components/Pagination'
 
 export default function Projects() {
   const projects = content.projects1
@@ -39,6 +40,7 @@ export default function Projects() {
               ))
             }
           </div>
+          <Pagination />
         </div>
       </Container>
       <Footer />

@@ -8,6 +8,7 @@ import SkillsContent from '../components/skill_experience/SkillsContent'
 import ExperienceContent from '../components/skill_experience/ExperienceContent'
 import Head from 'next/head'
 import Sertifikat from '../components/skill_experience/Sertifikat'
+import Pagination from '../components/Pagination'
 
 export default function Skills_Experience() {
   return (
@@ -35,6 +36,7 @@ export default function Skills_Experience() {
               <Sertifikat />
             </div>
           </div>
+          <Pagination />
         </div>
       </Container>
       <Footer />

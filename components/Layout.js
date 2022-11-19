@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './navbar/Navbar'
+import Pagination from './Pagination'
 
 export default function Layout({ children }) {
     return (

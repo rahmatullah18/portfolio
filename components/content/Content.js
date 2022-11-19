@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Wave from 'react-wavify'
+import Pagination from '../Pagination'
 import About from './About'
 import ButtonContent from './ButtonContent'
 import Contact from './Contact'
@@ -18,6 +19,7 @@ export default function Content() {
         <ButtonContent />
         {/* contact */}
         <Contact />
+        <Pagination />
       </div>
       <Wave className={`absolute bottom-0 transition delay-75 ease-in duration-500 ${waveHeight ? '-translate-y-16' : ""}`} mask="url(#mask)" fill={'#1277b0'}
         options={{
