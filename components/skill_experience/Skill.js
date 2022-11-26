@@ -14,6 +14,7 @@ export default function Skill({ skills }) {
   }
   return (
     <div className='space-y-4 '>
+      <h3 className='text-2xl font-extrabold'>Skills </h3>
       <div className='grid grid-cols-3 gap-4'>
         {
           skills?.skills.map((skill, idx) => {

@@ -10,7 +10,7 @@ const sertifikat = [
     tanggal: "13 Sebtember - 12 November 2021",
     url: "https://drive.google.com/file/d/181-Lesu2j5_XwrslOoCV2Qz-nNHChkX0/view?usp=sharing",
     tempat: "Kantor Bupati Jeneponto"
-  }
+  },
 ]
 
 const sertifikatContent = {

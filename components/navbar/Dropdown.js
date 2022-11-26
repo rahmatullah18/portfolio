@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 export default function MyDropdown({ listNavbar, path }) {
 	return (
-		<div className="">
+		<div className="border rounded-md shadow-lg ">
 			<Menu as="div" className="relative inline-block text-left">
 				<div>
-					<Menu.Button className="inline-flex justify-center w-full px-4 py-2 font-bold text-black bg-white border-2 rounded-sm border-black-figma text-md">
-						Menu
+					<Menu.Button className="inline-flex items-center justify-center w-full px-4 py-2 text-lg font-bold text-black bg-white rounded-sm">
+						<span className=''>Menu</span>
 						<ChevronDownIcon
-							className="w-5 h-5 ml-2 -mr-1 text-violet-200 hover:text-violet-100"
+							className="w-5 h-5 -mr-1 text-gray-600 "
 							aria-hidden="true"
 						/>
 					</Menu.Button>

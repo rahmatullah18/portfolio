@@ -4,8 +4,8 @@ import React, { useState } from 'react'
 export default function PictureHeader() {
   const [mouseEnter, setMouseEnter] = useState(false)
   return (
-    <div className='h-full' onMouseEnter={() => setMouseEnter(true)} onMouseLeave={() => setMouseEnter(false)}>
-      <div className='relative w-full h-full bg-center bg-no-repeat bg-cover md:bg-local bg-picture-header'>
+    <div className='h-full bg-red-300' onMouseEnter={() => setMouseEnter(true)} onMouseLeave={() => setMouseEnter(false)}>
+      <div className='relative w-full h-full bg-center bg-no-repeat bg-cover bg-picture-header'>
         <div
           className={`absolute p-1 bg-white rounded-full top-20 md:top-1/4 md:left-1/4 left-20 transition-opacity ease-in delay-150 ${mouseEnter ? '' : 'opacity-0'}`} >
           <div className={`relative w-10 h-10`}>

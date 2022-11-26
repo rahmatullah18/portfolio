@@ -8,23 +8,7 @@ const projects1 = [
       {/* <li>B</li> */}
     </ul>,
     perusahaan: "Vena Energy",
-    teknologi: [
-      {
-        name: "Next.Js"
-      },
-      {
-        name: "Tailwind CSS"
-      },
-      {
-        name: "Strapi"
-      },
-      {
-        name: "PWA"
-      },
-      {
-        name: "Responsive"
-      }
-    ]
+    teknologi: [{ name: "Next.Js" }, { name: "Tailwind CSS" }, { name: "Strapi" }, { name: "PWA" }, { name: "Responsive" }]
   },
   {
     url: 'https://mitra.lapakjeneponto.com/',
@@ -34,23 +18,7 @@ const projects1 = [
       <li>Website pengelolaan toko pada masing-masing UMKM untuk lapakjeneponto.com</li>
     </ul>,
     perusahaan: "Vena Energy",
-    teknologi: [
-      {
-        name: "Next.Js"
-      },
-      {
-        name: "Tailwind CSS"
-      },
-      {
-        name: "Strapi"
-      },
-      {
-        name: "PWA"
-      },
-      {
-        name: "Responsive"
-      }
-    ]
+    teknologi: [{ name: "Next.Js" }, { name: "Tailwind CSS" }, { name: "Strapi" }, { name: "PWA" }, { name: "Responsive" }]
   },
   {
     url: 'https://grosir113.com/',
@@ -73,6 +41,23 @@ const projects1 = [
       {
         name: "Responsive"
       }
+    ]
+  },
+  {
+    url: 'https://andinurafni.vercel.app/',
+    imgUrl: `https://res.cloudinary.com/grosir113/image/upload/v1669458456/portfolio/afni/mobile_scq5qv.png`,
+    title: 'Portofolio Andi Nurafni',
+    desc: <ul className="list-disc">
+      <li>Website Portofolio </li>
+    </ul>,
+    perusahaan: "Freelance",
+    teknologi: [
+      {
+        name: "React.Js"
+      },
+      {
+        name: "Tailwind CSS"
+      },
     ]
   }
 ]

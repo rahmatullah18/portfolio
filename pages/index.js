@@ -22,11 +22,11 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>Rahmatullah Ashar | Front-End Developer</title>
       </Head>
-      <div className='md:grid md:grid-cols-2'>
-        <animated.div style={fade} className='h-5/6 md:h-full'>
+      <div className='md:flex '>
+        <animated.div style={fade} className='w-full md:min-h-full h-3/6'>
           <PictureHeader />
         </animated.div>
-        <div className='bg-picture-content '>
+        <div className='md:flex md:flex-col md:justify-between'>
           {/* <Container> */}
           <Content />
           {/* </Container> */}

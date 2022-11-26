@@ -8,7 +8,7 @@ import Title from './Title'
 export default function Content() {
   return (
     <div className='relative flex flex-col'>
-      <div className='z-10 mx-5 my-10 space-y-10 md:mx-10' >
+      <div className='z-10 mx-5 my-10 space-y-20 md:mx-20' >
         {/* title */}
         <Title />
         {/* about */}
@@ -17,6 +17,7 @@ export default function Content() {
         <ButtonContent />
         {/* contact */}
         <Contact />
+        {/* pagination */}
         <Pagination />
       </div>
     </div>
