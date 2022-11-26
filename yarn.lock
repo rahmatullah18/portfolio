@@ -1687,12 +1687,10 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-wavify@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/react-wavify/-/react-wavify-1.6.3.tgz#f8b244a325bc127dd48117828c525e1e4baa88b5"
-  integrity sha512-+FTPs3zRXk7jx9xOHoUdwXxHduJpeiq6lGLD3NBIIrpxdkp0vB45SohyWnQ7ptOhiOpm0iXypTH7TC0pMl+bug==
-  dependencies:
-    prop-types "^15.8.1"
+react-type-animation@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-type-animation/-/react-type-animation-2.1.2.tgz#9a67c87e8e7a5e4ca3411e30cd2fa308365307a4"
+  integrity sha512-6/t4Whl87sLR0c8kzvJngTrCV6OVy3jEeUZoe2svVu9VaYr951VD7OeUie1rIyeD8JfpBIqZGYrPFHZQ04XHrw==
 
 react@18.2.0:
   version "18.2.0"
