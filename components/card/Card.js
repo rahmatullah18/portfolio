@@ -8,7 +8,7 @@ export default function Card({ project1 }) {
     <div className="p-1 overflow-hidden bg-white border shadow-custom rounded-xl">
       <Link href={`${project1.url}`}>
         <a target={'_blank'}>
-          <div className="relative w-full h-40 overflow-hidden shadow-xl rounded-xl md:h-40">
+          <div className="relative w-full h-40 overflow-hidden shadow-xl rounded-xl md:h-60">
             <Image src={`${project1.imgUrl}`} alt="project" className="object-cover" layout='fill' />
           </div>
           <div>

@@ -32,7 +32,7 @@ export default function Projects() {
       <Container>
         <div className='my-10 space-y-10 md:md:my-20'>
           <h1 className='text-3xl font-bold text-center'>My  Project 👨‍💻</h1>
-          <div className='space-y-4 md:space-y-0 md:gap-2 md:grid md:grid-cols-3'>
+          <div className='space-y-4 md:space-y-0 md:gap-4 md:grid md:grid-cols-3'>
             {
               transitions((style, item) => (
                 <animated.div style={style}>

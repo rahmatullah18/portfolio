@@ -23,7 +23,7 @@ export default function Home() {
         <title>Rahmatullah Ashar | Front-End Developer</title>
       </Head>
       <div className='md:flex '>
-        <animated.div style={fade} className='w-full md:min-h-full h-3/6'>
+        <animated.div style={fade} className='w-full md:min-h-full h-4/6'>
           <PictureHeader />
         </animated.div>
         <div className='md:flex md:flex-col md:justify-between'>
