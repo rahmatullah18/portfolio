@@ -1,4 +1,4 @@
-const skills = [
+export const skills = [
   {
     title: 'HTML',
     url: 'https://id.wikipedia.org/wiki/HTML',
@@ -71,8 +71,11 @@ const skills = [
   },
 ]
 
-const skillContent = {
-  skills
-}
+export const basicSkill = [
+  {
+    title: 'React Native',
+    url: 'https://reactnative.dev/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1671150359/portfolio/React_native_jt9lhc.svg`,
+  },
+]
 
-export default skillContent

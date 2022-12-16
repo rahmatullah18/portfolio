@@ -59,6 +59,23 @@ const projects1 = [
         name: "Tailwind CSS"
       },
     ]
+  },
+  {
+    url: 'https://lapakbarru.com/',
+    imgUrl: `https://res.cloudinary.com/grosir113/image/upload/v1671149000/portfolio/Screenshot_2022-12-13_122018_narjwj.png`,
+    title: 'Marketplace Dinas Perikanan Barru',
+    desc: <ul className="list-disc">
+      <li>Marketplace UMKM binaan Dinas Perikanan Barru</li>
+    </ul>,
+    perusahaan: "Freelance",
+    teknologi: [
+      {
+        name: "React.Js"
+      },
+      {
+        name: "Tailwind CSS"
+      },
+    ]
   }
 ]
 const projects = {

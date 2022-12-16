@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer'
 import Layout from '../components/Layout'
 import Experience from '../components/skill_experience/Experience'
 import Skill from '../components/skill_experience/Skill'
-import SkillsContent from '../components/skill_experience/SkillsContent'
+import { skills, basicSkill } from '../components/skill_experience/SkillsContent'
 import ExperienceContent from '../components/skill_experience/ExperienceContent'
 import Head from 'next/head'
 import Sertifikat from '../components/skill_experience/Sertifikat'
@@ -28,11 +28,9 @@ export default function Skills_Experience() {
             {/* <div className='mx-4 text-justify'>Saya mempunyai berbagai macam skills dan pengalaman kerja di bidang teknologi front-end web.</div> */}
           </div>
           <div className='items-start my-10 space-y-10 md:space-y-0 md:gap-10 md:my-20 md:grid md:grid-cols-3'>
-            <Skill skills={SkillsContent} />
-            <div className='md:col-span-2'>
+            <Skill skills={skills} />
+            <div className='md:col-span-2 space-y-8'>
               <Experience experiences={ExperienceContent} />
-            </div>
-            <div>
               <Sertifikat />
             </div>
           </div>
