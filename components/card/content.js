@@ -67,15 +67,8 @@ const projects1 = [
     desc: <ul className="list-disc">
       <li>Marketplace UMKM binaan Dinas Perikanan Barru</li>
     </ul>,
-    perusahaan: "Freelance",
-    teknologi: [
-      {
-        name: "React.Js"
-      },
-      {
-        name: "Tailwind CSS"
-      },
-    ]
+    perusahaan: "Dinas Perikanan Barru",
+    teknologi: [{ name: "Next.Js" }, { name: "Tailwind CSS" }, { name: "Strapi" }, { name: "PWA" }, { name: "Responsive" }]
   }
 ]
 const projects = {
