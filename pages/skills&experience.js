@@ -24,12 +24,11 @@ export default function Skills_Experience() {
       <Container>
         <div className='my-10 space-y-10 md:my-20'>
           <h1 className='text-3xl font-bold text-center'><span className='text-purple-figma'>Skills</span> & <span className='text-red-figma'>Experience</span> 👨‍🎓</h1>
-          <div className='flex items-center justify-center text-gray-500'>
-            {/* <div className='mx-4 text-justify'>Saya mempunyai berbagai macam skills dan pengalaman kerja di bidang teknologi front-end web.</div> */}
-          </div>
-          <div className='items-start my-10 space-y-10 md:space-y-0 md:gap-10 md:my-20 md:grid md:grid-cols-3'>
+          {/* <div className='flex items-center justify-center text-gray-500'>
+          </div> */}
+          <div className='items-start space-y-10 md:space-y-0 md:gap-10 md:my-20 md:grid md:grid-cols-3'>
             <Skill skills={skills} />
-            <div className='md:col-span-2 space-y-8'>
+            <div className='space-y-8 md:col-span-2'>
               <Experience experiences={ExperienceContent} />
               <Sertifikat />
             </div>

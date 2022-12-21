@@ -21,8 +21,8 @@ export default function Pagination() {
     }
     return (
         <div className='flex items-center justify-between'>
-            <span onClick={handleBack} className='text-lg hover:cursor-pointer'>{pathname === '/' ? '' : <div className='flex items-center'>⬅️ Kembali</div>}</span>
-            <span onClick={handleCountinue} className='text-lg hover:cursor-pointer'>{pathname === '/skills&experience' ? '' : <div className='flex items-center'> Selanjutnya ➡️</div>}</span>
+            <span onClick={handleBack} className='text-lg border-b border-black hover:cursor-pointer'>{pathname === '/' ? '' : <div className='flex items-center'>🌏 Kembali</div>}</span>
+            <span onClick={handleCountinue} className='text-lg border-b border-black hover:cursor-pointer'>{pathname === '/skills&experience' ? '' : <div className='flex items-center'> Selanjutnya 🛬</div>}</span>
         </div>
     )
 }

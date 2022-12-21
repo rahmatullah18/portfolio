@@ -14,7 +14,6 @@ export default function Projects() {
     setProject(content.projects1)
   }, [content])
 
-  const id = Date.now()
   const transitions = useTransition(projects, {
     from: { opacity: 0, y: -100 },
     enter: { opacity: 1, y: 0 }

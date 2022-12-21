@@ -18,8 +18,7 @@ module.exports = {
         'orange-figma': '#DED1C1',
       },
       backgroundImage: {
-        'picture-header': "url('/img/mamat2.svg')",
-        'picture-content': "url('https://my.spline.design/weirdbubblecopy-c6fffce1dad082f34a6807ad58d316b5')",
+        'picture-header': "url('https://res.cloudinary.com/grosir113/image/upload/v1671602450/portfolio/mamat_v7hwxx.svg')",
       },
       boxShadow: {
         'custom': '27px 12px 62px -16px rgba(121,86,230,0.59)',

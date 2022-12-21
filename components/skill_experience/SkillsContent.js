@@ -50,6 +50,11 @@ export const skills = [
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1664374875/portfolio/Bootstrap_v2l3zf.svg`,
   },
   {
+    title: 'PostgreSQL',
+    url: 'https://www.postgresql.org/',
+    urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1671602906/portfolio/PostgreSQL_gnbt2u.svg`,
+  },
+  {
     title: 'MySQL',
     url: 'https://id.wikipedia.org/wiki/MySQL',
     urlLogo: `https://res.cloudinary.com/grosir113/image/upload/v1665381334/portfolio/MySQL_Logo_qy25oh.svg`,
